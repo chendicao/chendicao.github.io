@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Chendi Cao</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Jan 2021 16:53:36 -0600</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Single Wheat Seed Volume Measurements as Estimated from Orthogonal Top and Side Images.</title>
+      <link>/project/proj5/</link>
+      <pubDate>Thu, 14 Jan 2021 16:53:36 -0600</pubDate>
+      <guid>/project/proj5/</guid>
+      <description>&lt;p&gt;Computer vision and pattern recognition deal with how computers can be made to gain a high-level understanding of images or videos. The field of machine learning has grown rapidly over the past few years and practitioners can inject machine learning to agriculture applications. The affordable consumer-grade cameras have brought about a profound advancement of image processing methods. The elliptical cylinder model performs great on the variety ofwheat seed samples including milo and whea.t. For the number of slices selection, the error rate is below 3% on selected reference objects when we choose N=50 number of slices or above. Due to the lack of the seed image processing framework for volume measurement in the agriculture field, we proposed a framework that can calculate the seed volume by measuring its cross-section using two cameras to gather image information. First, we set up a turntable with two cameras: the main view and side view. Next, we turn on the seed feeder and turntable, and our framework captures pictures for one single seed dynamically. Then, our model makes image analysis on two images of one seed and displays the result in real-time through the framework.  Combining knowledge of seed image analysis, our proposed framework performs state of the art imaging processing model on seed analysis and achieves rapid measurement of seed volume. The results of proposed volume measurements using wheat seed samples are compared with several image-based volume measurements, and the impact of different experiment design is also analyzed. This framework significantly improves the efficiency in the field of seed property analysis for the researchers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dam Breach Simulation with Material Point Method</title>
+      <link>/project/proj4/</link>
+      <pubDate>Thu, 14 Jan 2021 16:51:50 -0600</pubDate>
+      <guid>/project/proj4/</guid>
+      <description>&lt;p&gt;Dam embankment breaches caused by overtopping or internal erosion can impact both life
+and property downstream. It is important to accurately predict the amount of erosion, peak discharge,
+and the resulting downstream flow. This paper presents a new model based on the material point
+method to simulate soil and water interaction and predict failure rate parameters. The model assumes
+that the dam consists of a homogeneous embankment constructed with cohesive soil, and water
+inflow is defined by a hydrograph using other readily available reach routing software. The model
+uses continuum mixture theory to describe each phase where each species individually obeys the
+conservation of mass and momentum. A two-grid material point method is used to discretize the
+governing equations. The Drucker–Prager plastic flow model, combined with a Hencky strain-based
+hyperelasticity model, is used to compute soil stress. Water is modeled as a weakly compressible fluid.
+Analysis of the model demonstrates the efficacy of our approach for existing examples of overtopping
+dam breach, dam failures, and collisions. Simulation results from our model are compared with a
+physical-based breach model, WinDAM C. The new model can capture water and soil interaction at a
+finer granularity than WinDAM C. The new model gradually removes the granular material during
+the breach process. The impact of material properties on the dam breach process is also analyzed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficient Seed Volume Measurement Framework</title>
+      <link>/project/example/</link>
+      <pubDate>Tue, 14 Jan 2020 12:40:33 -0600</pubDate>
+      <guid>/project/example/</guid>
+      <description>&lt;p&gt;Abstract: Modern seed breeding programs require the ability to analyze seeds efficiently to be useful. Even simple measures such as volume and density can be challenging to compute efficiently with modest equipment. Accurately measuring seed volume becomes a highly under-constrained problem. Multiple images from different perspectives are required.&lt;/p&gt;
+&lt;p&gt;This paper presents an efficient and affordable 3D single seed volume measurement system to extract image contours and compute volumes using a modified volume carving method in
+a controlled lab environment. The framework is constructed with a turntable, a stepper motor controlled by an Arduino microcontroller, three orthogonal cameras, and camera control via a modest computer used for data acquisition and processing. For testing, images are captured using only a side camera from different angles by rotating the turntable. Then, the framework processes the multiple images in parallel and reconstructs 3D seed objects to calculate the volume based on the voxel numbers. The proposed framework: (1) generates single seed 3D geometries for visualization, (2) calculates precise seed volumes within seconds, and (3) achieves less than a 3% error rate on a reference ceramic sphere.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sensitivity Analysis of Internal Erosion Models for Dam Safety</title>
+      <link>/project/proj2/</link>
+      <pubDate>Mon, 14 Jan 2019 15:17:30 -0600</pubDate>
+      <guid>/project/proj2/</guid>
+      <description>&lt;p&gt;Windows Dam Analysis Modules (WinDAM) is a set of
+modular software components used to analyze the erosion
+and peak discharges that results from the overtopping or
+internal erosion in earthen embankment dams. The initial
+computational modules address routing of floods through
+the reservoir with dam overtopping and evaluation of the
+potential for vegetation or riprap to delay or prevent
+failure of the embankment. Subsequent modules perform
+dam breach analysis. Current work is underway to
+include analysis of internal erosion, non-homogeneous,
+zoned embankments, and the analysis of various other
+forms of embankment protection. The focus of this paper
+is on sensitivity analysis of internal erosion models using
+Sandia National Laboratories’ Dakota software suite 6.10
+to perform the analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flexible Architecture for Analysis of Water Control Structures</title>
+      <link>/project/proj1/</link>
+      <pubDate>Sun, 14 Jan 2018 12:40:33 -0600</pubDate>
+      <guid>/project/proj1/</guid>
+      <description>&lt;p&gt;Abstract: Scientific computing involves the development, analysis, and execution of computational algorithms to solve mathematical problems from science and engineering. Effective implementation of these algorithms on high-performance computers requires knowledge and techniques from mathematics, statistics, and several areas in computer science including parallel computing, compilers, and theory. Although hydrologic field engineers have a wide array of research tools to use, they face the problem that all of these tools are loosely coupled.
+In this paper, we propose a new framework to solve these problems. The framework is scalable and extensible, and it can be used to execute jobs either locally and on a cluster as needed. A canonical hydrograph format is defined using eXtensible Markup Language (XML) format to exchanging flow information between disparate software packages, and translators are developed to convert between formats.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coupled Dam Safety Analysis using BREACH and WinDAM</title>
+      <link>/project/proj3/</link>
+      <pubDate>Sat, 14 Jan 2017 16:31:40 -0600</pubDate>
+      <guid>/project/proj3/</guid>
+      <description>&lt;p&gt;The National Weather Service BREACH model is a physically-based model to predict the discharge hydrograph
+resulting from a breached earthen dam. Likewise, WindowsTM Dam Analysis Modules (WinDAM) is a
+physically-based model and set of modular software components that can be used to analyze overtopping and
+internal erosion of embankment dams. Dakota is an extensive software framework for design exploration and
+simulation. These tools can be coupled together to create a powerful framework.&lt;br&gt;
+This paper describes several new interfaces that have been designed to conduct coupled analysis over a wide
+range of input parameters including both structural properties and flow properties. The goal of this paper is to
+describe how the new framework was designed to loosely couple the existing software, BREACH, WinDAM, and
+Dakota, and how the framework can be used to efficiently analyze spillway and dam erosion data.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
